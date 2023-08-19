@@ -1,2 +1,3 @@
 -- this is the command
-Desc first_table;
+source 5-full_table.sql;
+
