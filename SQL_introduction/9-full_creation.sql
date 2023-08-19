@@ -1,10 +1,13 @@
 --create a second table and inserting records
-CREATE TABLE IF NOT EXISTS second_table(
-    id INT,
-    name VARCHAR(256)
+CREATE TABLE second_table IF NOT EXISTS(
+    id INT PRIMARY KEY AUTOINCREMENT,
+    name VARCHAR(256),
     score INT
 );
-INSERT INTO second_table(id, name, score) values(1,'john',10);
-INSERT INTO second_table(id, name, score) values(2,'Alex',3);
-INSERT INTO second_table(id, name, score) values(3,'Bob',14);
-INSERT INTO second_table(id, name, score) values(4,'George',8);
+
+INSERT INTO second_table (name, score) VALUES
+    ('Alice', 95),
+    ('Bob', 78),
+    ('Carol', 88),
+    ('David', 72),
+    ('Eve', 90);
