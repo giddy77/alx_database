@@ -1,4 +1,4 @@
 --THIS IS CODE
-use hbtn_0c_0;
+mysql -u username -p komp hbtn_0c_0;
 
-SELECT *.first_table;
+SELECT * FROM first_table;
