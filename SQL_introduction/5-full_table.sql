@@ -1,5 +1,5 @@
 -- this is the command
-CREATE TABLE `first_table` (
+CREATE TABLE IF NOT EXISTS `first_table` (
   `id` int NOT NULL AUTO_INCREMENT,
   `name` varchar(128) DEFAULT NULL,
   `c` char(1) DEFAULT NULL,
