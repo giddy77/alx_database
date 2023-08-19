@@ -1,4 +1,4 @@
-/* this is a comment */
+-- this is a comment 
 CREATE TABLE IF NOT EXISTS first_table(
     id INT,
     name VARCHAR(256)
