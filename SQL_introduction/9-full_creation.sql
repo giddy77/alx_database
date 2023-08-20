@@ -11,12 +11,8 @@ INSERT INTO second_table (name, score) VALUES
     ('Alex', 3),
     ('Bob', 14),
     ('George', 8);
-
-INSERT INTO second_table IF EXISTS  (name, score) VALUES
-        ('A',12),
-        ('B',12),
-        ('C',12),
-        ('D',12);
-
+    
+INSERT INTO second_table (name, score) 
+VALUES ('A', 12), ('B', 12), ('C', 12), ('D', 12)
 
 
