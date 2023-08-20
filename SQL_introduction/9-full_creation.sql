@@ -1,7 +1,7 @@
---create a second table and inserting records
-mysql -hlocalhost -p hbtn_0c_0;
-CREATE TABLE second_table IF NOT EXISTS(
-    id INT PRIMARY KEY AUTOINCREMENT,
+-- create a second table and inserting records
+
+CREATE TABLE IF NOT EXISTS second_table (
+    id INT,
     name VARCHAR(256),
     score INT
 );
