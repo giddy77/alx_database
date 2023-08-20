@@ -14,4 +14,4 @@ INSERT INTO second_table (name, score) VALUES
     ('A',12),
     ('B',12),
     ('C',12),
-    ('D',12),
+    ('D',12);
