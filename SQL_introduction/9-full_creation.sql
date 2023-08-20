@@ -11,8 +11,12 @@ INSERT INTO second_table (name, score) VALUES
     ('Alex', 3),
     ('Bob', 14),
     ('George', 8);
-    
+
 INSERT INTO second_table (name, score) 
-VALUES ('A', 12), ('B', 12), ('C', 12), ('D', 12)
+SELECT 'A', 12 UNION ALL
+SELECT 'B', 12 UNION ALL
+SELECT 'C', 12 UNION ALL
+SELECT 'D', 12
+WHERE EXISTS (SELECT 1 FROM second_table);
 
 
