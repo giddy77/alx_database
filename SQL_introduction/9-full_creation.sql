@@ -6,14 +6,14 @@ CREATE TABLE IF NOT EXISTS second_table (
     score INT
 );
 
-INSERT INTO second_table (name, score) VALUES
+INSERT INTO second_table (id,name, score) VALUES
     (1,'John', 10),
     (2,'Alex', 3),
     (3,'Bob', 14),
     (4,'George', 8);
 
 
-INSERT INTO second_table IF EXISTS (name, score) VALUES
+INSERT INTO second_table IF EXISTS (id,name, score) VALUES
     (5,'A', 12),
     (6,'B', 12),
     (7,'C', 12),
